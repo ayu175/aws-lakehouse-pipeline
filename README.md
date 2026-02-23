@@ -57,12 +57,16 @@ The fulfillment website had a defect where only 30 unique serial numbers were cy
 
 Query results for each zone are included in the `screenshots/` directory:
 
-| Screenshot | Description |
-|---|---|
-| `customer_landing` | Raw customer records including non-consenting customers |
-| `accelerometer_landing` | Raw accelerometer readings |
-| `step_trainer_landing` | Raw Step Trainer IoT readings |
-| `customer_trusted` | Filtered to consented customers only (482 records) |
+| Screenshot | Zone | Description |
+|---|---|---|
+| `customer_landing.png` | Landing | Raw customer records including non-consenting customers (956 records) |
+| `accelerometer_landing.png` | Landing | Raw accelerometer readings (81,273 records) |
+| `step_trainer_landing.png` | Landing | Raw Step Trainer IoT readings (28,680 records) |
+| `customer_trusted.png` | Trusted | Filtered to consented customers only (482 records) |
+| `accelerometer_landing_to_trusted.png` | Trusted | Accelerometer readings from consented customers only (40,981 records) |
+| `step_trainer_landing_to_trusted.png` | Trusted | Step Trainer readings matched to curated customers (14,460 records) |
+| `customer_curated.png` | Curated | Consented customers with confirmed accelerometer data (482 records) |
+| `machine_learning_curated.png` | Curated | Joined Step Trainer and accelerometer readings by timestamp (43,681 records) |
 
 ## Tools & Technologies
 
