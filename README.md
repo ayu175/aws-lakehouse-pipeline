@@ -64,28 +64,6 @@ Query results for each zone are included in the `screenshots/` directory:
 | `step_trainer_landing` | Raw Step Trainer IoT readings |
 | `customer_trusted` | Filtered to consented customers only (482 records) |
 
-## Project Structure
-
-```
-stedi-lakehouse/
-├── scripts/
-│   ├── customer_landing_to_trusted.py
-│   ├── accelerometer_landing_to_trusted.py
-│   ├── customer_curated.py
-│   ├── step_trainer_landing_to_trusted.py
-│   └── machine_learning_curated.py
-├── sql/
-│   ├── customer_landing.sql
-│   ├── accelerometer_landing.sql
-│   └── step_trainer_landing.sql
-├── screenshots/
-│   ├── customer_landing.png
-│   ├── accelerometer_landing.png
-│   ├── step_trainer_landing.png
-│   └── customer_trusted.png
-└── README.md
-```
-
 ## Tools & Technologies
 
 AWS Glue · AWS S3 · AWS Athena · PySpark · Python · SQL
