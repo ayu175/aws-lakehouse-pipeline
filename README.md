@@ -1,4 +1,4 @@
-# STEDI Human Balance Analytics — AWS Lakehouse
+# STEDI Human Balance Analytics - AWS Lakehouse
 
 How do we build a trustworthy ML-ready dataset from IoT sensor data when customer consent records are incomplete and serial number data is corrupted?
 
