@@ -4,7 +4,7 @@ How do we build a trustworthy ML-ready dataset from IoT sensor data when custome
 
 This project builds a multi-zone data lakehouse on AWS to process sensor data from the STEDI Step Trainer, a balance-monitoring IoT device. Raw data from three sources (customer records, accelerometer readings, and step trainer IoT streams) is ingested into a landing zone, sanitized for research consent and data quality issues, and refined into a curated dataset ready for machine learning. All transformations are implemented as AWS Glue jobs written in PySpark.
 
-> This project was completed as part of the [Udacity Data Engineering Nanodegree](https://www.udacity.com/course/data-engineer-nanodegree--nd027). Udacity provided the project requirements and source datasets; all SQL table definitions, Glue job scripts, and pipeline logic were implemented independently.
+> This project was completed as part of the [Udacity Data Engineering Nanodegree](https://www.udacity.com/course/data-engineer-nanodegree--nd027). The data can be found in this [repository](https://github.com/udacity/nd027-Data-Engineering-Data-Lakes-AWS-Exercises/tree/main/project). Udacity provided the project requirements and source datasets; all SQL table definitions, Glue job scripts, and pipeline logic were implemented independently.
 
 ## Data Flow
 
